@@ -1,51 +1,63 @@
 body {
-    background-color: red;
+    background-color: #f45f5f;
 }
 
 .small {
-    display: block;
+    width: 100%;
 }
 
 .medium {
-    display: none;
+    width: 100%;
 }
 
 .large {
-    display: none;
+    width: 100%;
 }
 
-@media only screen and (min-width: 500px) {
+
+@media only screen and (min-width: 300px) {
     body {
-        background-color: green;
+        background-color: #b6fc9c;
     }
 
     .small {
-        display: none;
+        width: 45%;
+        float: left;
     }
 
     .medium {
-        display: block;
+        width: 45%;
+        float: left;
+        margin-left: 5%;
+
     }
 
     .large {
-        display: none;
+        width: 100%;
+        float: left;
     }
 }
 
 @media only screen and (min-width: 768px) {
     body {
-        background-color: blue;
+        background-color: #a0b9f7;
     }
 
     .small {
-        display: none;
+        width: 30%;
+        float: left;
+        mar
     }
 
     .medium {
-        display: none;
+        width: 30%;
+        float: left;
+        margin-left: 5%;
     }
 
     .large {
-        display: block
+        width: 30%;
+        float: left;
+        margin-left: 5%;
     }
 }
